@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  background: #121212;
+}
+
+#header .navbar-brand {
+  background: #E2B616;
+  border-radius: 5px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+#header .navbar-collapse .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#mainSection {
+  background: #E3E2DD;
+}
+
+#mainSection .movieList {
+  background: #F8F8F8;
+  border-right: 3px solid #999999;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+#mainSection .movieList table th {
+  color: #666666;
+  font-size: 14px;
+}
+
+#mainSection .movieList table tbody {
+  border-collapse: collapse;
+  border: 1px solid #fff;
+}
+
+#mainSection .movieList table tbody tr {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+#mainSection .movieList table tbody tr:nth-child(even) {
+  background: #fbfbfb;
+}
+
+#mainSection .movieList table tbody tr:nth-child(odd) {
+  background: #f6f6f5;
+}
+
+#mainSection .movieList table tbody tr td {
+  vertical-align: middle;
+}
+
+#mainSection .movieList table tbody tr td.title {
+  color: #136CB2;
+}
+
+#mainSection .movieList table tbody tr td.title:hover {
+  text-decoration: underline;
+}
+
+#mainSection .filterList {
+  background: #F0F0F0;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+#mainSection .pagination {
+  background: #F8F8F8;
+  margin-top: 15px;
+}
+
+#mainSection .movie {
+  background: #1F1F1F;
+  color: #fff;
+  padding: 30px 15px;
+  height: 83vh;
+}
+
+#mainSection .movie img {
+  margin-right: 30px;
+}
+
+#mainSection .movie figcaption h4, #mainSection .movie figcaption p {
+  margin-bottom: 10px;
+}
+
+#footer {
+  background: #121212;
+}
+
+#footer h1 {
+  color: #fff;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from "react-router-dom";
 
-function App() {
+import Navbar from "./components/navbar.component";
+import Layout from "./components/layout.component";
+import Movie from "./components/movie.component";
+import AddMovie from "./components/addMovie.component";
+import Movies from "./components/movies.component";
+import SingUp from "./components/singIn.compnent";
+import Home from "./components/home.component";
+import Footer from "./components/footer.component";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <Navbar />
+        <Layout>
+            <Switch>
+                <Route path="/movies/:id" component={Movie} />
+                <Route path="/addmovie" render={(props) => <AddMovie name="Add Movie" {...props} />} />
+                <Route path="/movies" component={Movies} />
+                <Route path="/singin" component={SingUp} />
+                <Route path="/" component={Home} />
+            </Switch>
+        </Layout>
+        <Footer />
+    </>
   );
 }
-
+ 
 export default App;

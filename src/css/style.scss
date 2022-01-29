@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+    background: #121212;
+    .navbar-brand{
+        background: #E2B616;
+        border-radius: 5px;
+        color: #000;
+        font-size: 24px;
+        font-weight: 700;
+        padding: 0 5px;
+    }
+
+    .navbar-collapse{
+        .nav-link{
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}
+
+#mainSection{
+    background: #E3E2DD;
+
+    .movieList{
+        background: #F8F8F8;
+        border-right: 3px solid #999999;
+        padding-top: 30px;
+        padding-bottom: 15px;
+
+        table {
+    
+            th {
+                color: #666666;
+                font-size: 14px;
+            }
+    
+            tbody {
+                border-collapse: collapse;
+                border: 1px solid #fff;
+    
+                tr {
+                    border-top: 2px solid #fff;
+                    border-bottom: 2px solid #fff;
+    
+                    &:nth-child(even) {
+                        background: #fbfbfb;
+                    }
+    
+                    &:nth-child(odd) {
+                        background: #f6f6f5;
+                    }
+    
+                    td {
+                        vertical-align: middle;
+    
+                        &.title {
+                            color: #136CB2;
+    
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .filterList{
+        background: #F0F0F0;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .pagination{
+        background: #F8F8F8;
+        margin-top: 15px;
+    }
+
+    .movie{
+        background: #1F1F1F;
+        color: #fff;
+        padding: 30px 15px;
+        height: 83vh;
+
+        img{
+            margin-right: 30px;
+        }
+
+        figcaption{
+            h4,p{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+#footer{
+    background: #121212;
+    h1{
+        color: #fff;
+        font-size: 24px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
