@@ -1,12 +1,12 @@
-import DamoPage from "./common/demoPage.component";
+import DemoPage from "./common/demoPage.component";
 
 const AddMovie = (props) => {
     console.log(props)
 
     return (
-        <DamoPage>
+        <DemoPage>
             <h1>{props.name} Component</h1>
-        </DamoPage>
+        </DemoPage>
     );
 }
  

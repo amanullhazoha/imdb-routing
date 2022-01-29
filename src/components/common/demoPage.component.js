@@ -1,4 +1,4 @@
-const DamoPage = ({ children }) => {
+const DemoPage = ({ children }) => {
     return (
         <div className="d-flex justify-content-center align-items-center" style={{height: "83vh"}}>
             {children}
@@ -6,4 +6,4 @@ const DamoPage = ({ children }) => {
     );
 }
  
-export default DamoPage;
+export default DemoPage;

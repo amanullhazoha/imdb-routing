@@ -1,10 +1,10 @@
-import DamoPage from "./common/demoPage.component";
+import DemoPage from "./common/demoPage.component";
 
 const Home = () => {
     return (
-        <DamoPage>
+        <DemoPage>
             <h1>Home Component</h1>
-        </DamoPage>
+        </DemoPage>
     );
 }
  
